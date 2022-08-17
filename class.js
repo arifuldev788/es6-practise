@@ -1,5 +1,11 @@
-class Student{
+class fName{
+    constructor(){
+        this.father = 'Saef';
+    }
+}
+class Student extends fName{
     constructor(sId, sName){
+        super();
         this.id = sId;
         this.name = sName;
         this.school = "Nagdah High School";
